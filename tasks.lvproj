@@ -61,7 +61,6 @@
 			<Item Name="call by reference action.lvclass" Type="LVClass" URL="../standard action/call by reference action/call by reference action.lvclass"/>
 			<Item Name="close reference and report.lvclass" Type="LVClass" URL="../standard action/call by reference action/close reference reporter/close reference and report.lvclass"/>
 			<Item Name="result.lvclass" Type="LVClass" URL="../result/result.lvclass"/>
-			<Item Name="thread pool generic message.ctl" Type="VI" URL="../thread pool generic message.ctl"/>
 			<Item Name="wait action.lvclass" Type="LVClass" URL="../standard action/wait action/wait action.lvclass"/>
 		</Item>
 		<Item Name="thread pool.lvclass" Type="LVClass" URL="../dispatcher/thread pool.lvclass"/>
