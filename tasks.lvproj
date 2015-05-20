@@ -12,22 +12,33 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="examples and tests" Type="Folder">
-			<Item Name="big example" Type="Folder">
+			<Item Name="dependencies" Type="Folder">
+				<Item Name="cancellable wait func.vi" Type="VI" URL="../standard action/call by reference action/cancellable wait func.vi"/>
+				<Item Name="noncancellable wait.lvclass" Type="LVClass" URL="../examples/wait without cancel/noncancellable wait.lvclass"/>
+				<Item Name="simple get func.vi" Type="VI" URL="../standard action/call by reference action/simple get func.vi"/>
+				<Item Name="simple wait func.vi" Type="VI" URL="../standard action/call by reference action/simple wait func.vi"/>
+			</Item>
+			<Item Name="examples more like tests" Type="Folder">
+				<Item Name="batch task" Type="Folder">
+					<Item Name="batch action return immediately.vi" Type="VI" URL="../examples/batch action return immediately.vi"/>
+					<Item Name="batch action wait on all.vi" Type="VI" URL="../examples/batch action wait on all.vi"/>
+					<Item Name="batch callbyref wait on all.vi" Type="VI" URL="../examples/batch callbyref wait on all.vi"/>
+				</Item>
+				<Item Name="sequence task" Type="Folder">
+					<Item Name="sequence cancellable.vi" Type="VI" URL="../examples/sequence cancellable.vi"/>
+					<Item Name="sequence on all execution systems.vi" Type="VI" URL="../examples/sequence on all execution systems.vi"/>
+					<Item Name="sequence simple.vi" Type="VI" URL="../examples/sequence simple.vi"/>
+				</Item>
+				<Item Name="single tasks" Type="Folder">
+					<Item Name="single action cancellable.vi" Type="VI" URL="../examples/single action cancellable.vi"/>
+					<Item Name="single action.vi" Type="VI" URL="../examples/single action.vi"/>
+					<Item Name="single callbyref cancellable.vi" Type="VI" URL="../examples/single callbyref cancellable.vi"/>
+					<Item Name="single callbyref.vi" Type="VI" URL="../examples/single callbyref.vi"/>
+				</Item>
+			</Item>
+			<Item Name="pretty example" Type="Folder">
 				<Item Name="example UI get websites.vi" Type="VI" URL="../examples/example UI get websites.vi"/>
 			</Item>
-			<Item Name="cancellable wait func.vi" Type="VI" URL="../standard action/call by reference action/cancellable wait func.vi"/>
-			<Item Name="example batch nowait.vi" Type="VI" URL="../examples/example batch nowait.vi"/>
-			<Item Name="example batch waitall call ref.vi" Type="VI" URL="../examples/example batch waitall call ref.vi"/>
-			<Item Name="example batch waitall.vi" Type="VI" URL="../examples/example batch waitall.vi"/>
-			<Item Name="example call by ref.vi" Type="VI" URL="../examples/example call by ref.vi"/>
-			<Item Name="example call ref cancel.vi" Type="VI" URL="../examples/example call ref cancel.vi"/>
-			<Item Name="example multisequence.vi" Type="VI" URL="../examples/example multisequence.vi"/>
-			<Item Name="example sequence with cancel.vi" Type="VI" URL="../examples/example sequence with cancel.vi"/>
-			<Item Name="example sequence.vi" Type="VI" URL="../examples/example sequence.vi"/>
-			<Item Name="example single cancel.vi" Type="VI" URL="../examples/example single cancel.vi"/>
-			<Item Name="example.vi" Type="VI" URL="../examples/example.vi"/>
-			<Item Name="noncancellable wait.lvclass" Type="LVClass" URL="../examples/wait without cancel/noncancellable wait.lvclass"/>
-			<Item Name="simple wait func.vi" Type="VI" URL="../standard action/call by reference action/simple wait func.vi"/>
 		</Item>
 		<Item Name="results reporter" Type="Folder">
 			<Item Name="event reporter.lvclass" Type="LVClass" URL="../standard reporters/event reporter/event reporter.lvclass"/>
@@ -53,7 +64,6 @@
 			<Item Name="thread pool generic message.ctl" Type="VI" URL="../thread pool generic message.ctl"/>
 			<Item Name="wait action.lvclass" Type="LVClass" URL="../standard action/wait action/wait action.lvclass"/>
 		</Item>
-		<Item Name="simple get func.vi" Type="VI" URL="../standard action/call by reference action/simple get func.vi"/>
 		<Item Name="thread pool.lvclass" Type="LVClass" URL="../dispatcher/thread pool.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
