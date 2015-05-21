@@ -4,20 +4,22 @@ An API for scheduling "task" objects to run on any of the labview execution syst
 
 It consists of a few small classes which, to put it as simply as possible, work like so:
 
-Main Event Handler ------------ Some other Thread
-reporter=new result reporter                                           //We need a way to return results to the main thread, one option is an event
-RegisterForEvents(reporter)                                            //Register for that event
-pool=new threadpool(reporter)                                          //Create an async call pool (wrapped in a class)
-work=new task(myparameter)                                             //create a new task with a parameter
-pool.run(work)                                                         //Use the async call pool to run the task
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> task.perform()                         //In the call pool, run the task...
-------------------------------- result=task.RunDynamic()               //Which just does dynamic dispatch and returns a "result"
-------------------------------- task.reporter.report(result)           //The task then grabs its event (line 1) and fires it...
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ...fire event reporter...
+Starting in the main UI loop...
+```
+reporter=new result reporter
+RegisterForEvents(reporter)
+pool=new threadpool(reporter)
+work=new task(myparameter)
+pool.run(work)
+(in background) task.perform()
+(in background) result=task.RunDynamic()
+(in background) task.reporter.report(result)
+(in background) ...fire event reporter...
 ...event reporter fires...
+```
 
 In graphics, that looks like so:
-[readmeimg.png]
+![Simple example](readmeimg.png)
 
 The specific classes involved are:
 -'thread pool': creates an async call pool on any specified execution system (for example if you wanted to call a dll you could run it on "other 1" or something if you wanted) and allows you to run tasks on that call pool.
