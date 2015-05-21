@@ -55,7 +55,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 		</Item>
-		<Item Name="run on executor.vi" Type="VI" URL="../run on executor.vi">
+		<Item Name="run.vi" Type="VI" URL="../run.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(,!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!6%X2I=G6B:#"Q&lt;W^M,GRW9WRB=X-!%G2J=X"B&gt;'.I:8)O&lt;(:D&lt;'&amp;T=Q!!'U"Q!#!!!1!&amp;!!ZE;8.Q982D;'6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!*9!]1!!!!!!!!!#%X2I=G6B:#"Q&lt;W^M,GRW9WRB=X-5:8BF9X6U;7^O)(.Z=X2F&lt;3ZD&gt;'Q!:5!8!!9/&gt;8.F=C"J&lt;H2F=G:B9W5)=X2B&lt;G2B=G1/;7ZT&gt;(*V&lt;76O&gt;#"J,W]1:'&amp;U93"B9X&amp;V;8.J&gt;'FP&lt;A&gt;P&gt;'BF=C!R"W^U;'6S)$)!%'6Y:7.V&gt;'FP&lt;C"T?8.U:7U!!"Z!=!!?!!!/$(2B=WMO&lt;(:D&lt;'&amp;T=Q!!"(2B=WM!!"&gt;!=!!A!!%!"1!+:'FT='&amp;U9WBF=A!!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!%A!!!!A!!!!!!1!,!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
