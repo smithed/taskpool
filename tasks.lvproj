@@ -13,8 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="examples and tests" Type="Folder">
 			<Item Name="dependencies" Type="Folder">
-				<Item Name="cancellable wait func.vi" Type="VI" URL="../standard action/call by reference action/cancellable wait func.vi"/>
-				<Item Name="noncancellable wait.lvclass" Type="LVClass" URL="../examples/wait without cancel/noncancellable wait.lvclass"/>
 				<Item Name="simple get func.vi" Type="VI" URL="../standard action/call by reference action/simple get func.vi"/>
 				<Item Name="simple wait func.vi" Type="VI" URL="../standard action/call by reference action/simple wait func.vi"/>
 			</Item>
@@ -25,14 +23,11 @@
 					<Item Name="batch callbyref wait on all.vi" Type="VI" URL="../examples/batch callbyref wait on all.vi"/>
 				</Item>
 				<Item Name="sequence task" Type="Folder">
-					<Item Name="sequence cancellable.vi" Type="VI" URL="../examples/sequence cancellable.vi"/>
 					<Item Name="sequence on all execution systems.vi" Type="VI" URL="../examples/sequence on all execution systems.vi"/>
 					<Item Name="sequence simple.vi" Type="VI" URL="../examples/sequence simple.vi"/>
 				</Item>
 				<Item Name="single tasks" Type="Folder">
-					<Item Name="single action cancellable.vi" Type="VI" URL="../examples/single action cancellable.vi"/>
 					<Item Name="single action.vi" Type="VI" URL="../examples/single action.vi"/>
-					<Item Name="single callbyref cancellable.vi" Type="VI" URL="../examples/single callbyref cancellable.vi"/>
 					<Item Name="single callbyref.vi" Type="VI" URL="../examples/single callbyref.vi"/>
 				</Item>
 			</Item>
@@ -54,10 +49,6 @@
 			<Item Name="function task.lvclass" Type="LVClass" URL="../standard tasks/function task/function task.lvclass"/>
 			<Item Name="sequence task.lvclass" Type="LVClass" URL="../standard tasks/sequence task/sequence task.lvclass"/>
 			<Item Name="task.lvclass" Type="LVClass" URL="../task/task.lvclass"/>
-		</Item>
-		<Item Name="tokens" Type="Folder">
-			<Item Name="cancel token.lvclass" Type="LVClass" URL="../standard tokens/cancel token/cancel token.lvclass"/>
-			<Item Name="null task token.lvclass" Type="LVClass" URL="../task token/null task token.lvclass"/>
 		</Item>
 		<Item Name="work" Type="Folder">
 			<Item Name="call function by reference.lvclass" Type="LVClass" URL="../standard action/call by reference action/call function by reference.lvclass"/>
@@ -107,7 +98,6 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
